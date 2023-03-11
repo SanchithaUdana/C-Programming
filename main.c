@@ -46,6 +46,11 @@ int main() {
     printf("\nhexadecimal value of hexadecimal 10 : %d",(0X10)); // print hexadecimal value
     printf("\ndecimal value of octal 10 : %d\n",(010));  // print octal value
 
+    const char name[10] = "sanchitha"; // print string in C
+    printf("%s",name);
+
+
+
 
 
 
