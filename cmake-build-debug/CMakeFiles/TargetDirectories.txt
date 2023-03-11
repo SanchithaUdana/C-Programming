@@ -1,0 +1,3 @@
+/Users/apple/Documents/My Document/University/1  st year/1 st year 1 st semester/1 st year 1 Semester/ICT/02 C programming/c revision/cmake-build-debug/CMakeFiles/c_revision.dir
+/Users/apple/Documents/My Document/University/1  st year/1 st year 1 st semester/1 st year 1 Semester/ICT/02 C programming/c revision/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/apple/Documents/My Document/University/1  st year/1 st year 1 st semester/1 st year 1 Semester/ICT/02 C programming/c revision/cmake-build-debug/CMakeFiles/rebuild_cache.dir
