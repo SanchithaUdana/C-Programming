@@ -12,6 +12,7 @@ int newCal(){
     return 0;
 }
 
+// main method
 int main() {
     //newCal();
     signed va2 = -40;
@@ -41,6 +42,14 @@ int main() {
     int ert = num2;
     printf("%f",average);
     printf("\n %d",ert);
+
+    printf("\nhexadecimal value of hexadecimal 10 : %d",(0X10)); // print hexadecimal value
+    printf("\ndecimal value of octal 10 : %d\n",(010));  // print octal value
+
+
+
+
+
 
     return 0;
 }
