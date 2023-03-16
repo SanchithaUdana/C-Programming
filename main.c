@@ -12,6 +12,11 @@ int newCal(){
     return 0;
 }
 
+// Global Variable
+int p = 20;
+
+
+
 // main method
 int main() {
     //newCal();
@@ -47,7 +52,16 @@ int main() {
     printf("\ndecimal value of octal 10 : %d\n",(010));  // print octal value
 
     const char name[10] = "sanchitha"; // print string in C
-    printf("%s",name);
+    printf("%s\n",name);
+
+    printf("%d",p);
+
+
+
+
+
+
+
 
 
 
