@@ -3,8 +3,6 @@
 #define sum 10
 #define village "aralaganwila"
 
-
-
 int newCal(){
     int a;
     int b;
@@ -14,6 +12,7 @@ int newCal(){
     scanf("%d",&b);
     int total = a + b;
     printf("Total is %d",total);
+    printf("this is the print method in C");
     return 0;
 }
 
@@ -61,6 +60,11 @@ int main() {
     printf("%s\n",name);
 
     printf("%d",p);
+
+    int tur;
+    printf("\nEnter tur : ");
+    scanf("%d",&tur);
+    printf("%d",tur);
 
 
 
