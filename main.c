@@ -1,4 +1,9 @@
 #include <stdio.h>
+// macro type as a object like variable
+#define sum 10
+#define village "aralaganwila"
+
+
 
 int newCal(){
     int a;
@@ -15,12 +20,14 @@ int newCal(){
 // Global Variable
 int p = 20;
 
-
-
 // main method
 int main() {
     //newCal();
-    signed va2 = -40;
+    printf("%d\n",sum); // give variable using define - preprocessor
+    printf("%s\n",village); // give variable using define - preprocessor
+    printf("Today is %s\n",__DATE__); // pre defined macro
+    //printf("%s",name23);
+    signed va2 = 40;
     signed qw = 40;
     unsigned var = 0;
     unsigned er = -23;
@@ -37,7 +44,6 @@ int main() {
     float abc = 10.23; // 8
     int cba = (int)abc; // 4
     printf("%d \n", cba);
-
 
         // 02. Implicit Casting - Called Automatic casting
     printf("Implicit Casting : ");
