@@ -61,10 +61,25 @@ int main() {
 
     printf("%d",p);
 
-    int tur;
-    printf("\nEnter tur : ");
-    scanf("%d",&tur);
-    printf("%d",tur);
+    //int tur;
+    //printf("\nEnter tur : ");
+    //scanf("%d",&tur);
+    //printf("%d",tur);
+
+    // free defined macros
+    printf("%s\n",__DATE__);
+    printf("%s\n",__TIME__);
+
+    int d = 234;
+    float D = 12.345;
+    printf("%.2f\n%.4d%4d",D,d,d);
+
+    // only get one character using getChar() and print it using putChar()
+    printf("\nEnter Character : ");
+    int character = getchar();
+    putchar(character);
+
+
 
 
 
