@@ -16,6 +16,14 @@ int newCal(){
     return 0;
 }
 
+int facto(int n){
+    if (n==1){
+        return 1;
+    }else{
+        return n * facto(n-1);
+    }
+}
+
 // Global Variable
 int p = 20;
 
@@ -78,6 +86,26 @@ int main() {
     printf("\nEnter Character : ");
     int character = getchar();
     putchar(character);
+
+    int n;
+    printf("Enter number");
+    scanf("%d",&n);
+    printf("%d\n", facto(n));
+
+    // Arrays
+    int ages[10] = {20,12,45,6,7,86};
+    printf("%d\n",ages[0]);
+
+    // 2d array
+
+    int ageClass[5][5] = {{1,2,3,4,5},{5,4,3,2,1}};
+    printf("%d",ageClass[0][1]);
+
+
+
+
+
+
 
 
 
