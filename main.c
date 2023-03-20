@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <String.h>
 // macro type as a object like variable
 #define sum 10
 #define village "aralaganwila"
@@ -23,6 +24,12 @@ int facto(int n){
         return n * facto(n-1);
     }
 }
+
+struct person{
+    int age;
+    char name[10];
+    int index;
+}person1;
 
 // Global Variable
 int p = 20;
@@ -84,13 +91,13 @@ int main() {
 
     // only get one character using getChar() and print it using putChar()
     printf("\nEnter Character : ");
-    int character = getchar();
-    putchar(character);
+    //int character = getchar();
+    //putchar(character);
 
     int n;
     printf("Enter number");
-    scanf("%d",&n);
-    printf("%d\n", facto(n));
+    //scanf("%d",&n);
+    //printf("%d\n", facto(n));
 
     // Arrays
     int ages[10] = {20,12,45,6,7,86};
@@ -99,7 +106,45 @@ int main() {
     // 2d array
 
     int ageClass[5][5] = {{1,2,3,4,5},{5,4,3,2,1}};
-    printf("%d",ageClass[0][1]);
+    printf("%d\n",ageClass[0][1]);
+    int tyw[] = {1,2,3,4,5};
+    printf("%d\n",tyw[0]);
+
+    int gpa = 4;
+    int *g = &gpa;
+
+    printf("pointer address : %p\n",&g);
+    printf("variable address : %p\n",&gpa);
+    printf("pointer value in saved : %p\n",g);
+    printf("variable value using pointer %d\n",*g);
+
+    // print and
+    int arrayNew[3] = {1,2,3};
+    int *ptr = &arrayNew;
+    printf("%d", *(ptr));
+    printf(" %d", *(ptr + 1));
+    printf(" %d", *(ptr + 2));
+    *(ptr + 1) = 100;
+    printf("%d", *(ptr));
+    printf(" %d", *(ptr + 1));
+    printf(" %d", *(ptr + 2));
+
+    person1.age = 20;
+    printf("\n%d",person1.age);
+
+    struct person person2;  // create object using struct named person
+    strcpy(person2.name , "Sanchitha");  // add value to struct object using strcpy() function in String.h header file
+    printf("%s",person2.name);
+
+
+
+
+
+
+
+
+
+
 
 
 
